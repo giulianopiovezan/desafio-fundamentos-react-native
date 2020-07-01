@@ -56,6 +56,8 @@ useCartMocked.mockReturnValue({
   ],
   increment: jest.fn(),
   decrement: jest.fn(),
+  totalPrice: 0,
+  totalQuantity: 0,
 });
 
 const useNavigationMocked = mocked(useNavigation);
